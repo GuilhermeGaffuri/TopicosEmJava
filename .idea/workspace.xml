@@ -5,22 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e4caed6-cdba-4e36-b84a-1513e1381612" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/TrabalhoFinalJava.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Topicos em Java Final/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Topicos em Java Final/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Topicos em Java Final/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Topicos em Java Final/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Topicos em Java Final/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Topicos em Java Final/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Topicos em Java Final/src/main/java/trabalhoTopicosJava/com/demo/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Topicos em Java Final/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Topicos em Java Final/src/test/java/trabalhoTopicosJava/com/demo/ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/grupointegrado/projetoTDE/controller/AlunoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/grupointegrado/projetoTDE/controller/AlunoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/grupointegrado/projetoTDE/controller/CursoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/grupointegrado/projetoTDE/controller/CursoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/grupointegrado/projetoTDE/controller/DisciplinaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/grupointegrado/projetoTDE/controller/DisciplinaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/grupointegrado/projetoTDE/controller/MatriculaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/grupointegrado/projetoTDE/controller/MatriculaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/grupointegrado/projetoTDE/controller/NotaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/grupointegrado/projetoTDE/controller/NotaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/grupointegrado/projetoTDE/controller/ProfessorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/grupointegrado/projetoTDE/controller/ProfessorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/grupointegrado/projetoTDE/controller/TurmaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/grupointegrado/projetoTDE/controller/TurmaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/grupointegrado/projetoTDE/model/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/grupointegrado/projetoTDE/model/Aluno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/grupointegrado/projetoTDE/model/Curso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/grupointegrado/projetoTDE/model/Curso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/grupointegrado/projetoTDE/model/Disciplina.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/grupointegrado/projetoTDE/model/Disciplina.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/grupointegrado/projetoTDE/model/Matricula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/grupointegrado/projetoTDE/model/Matricula.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/grupointegrado/projetoTDE/model/Professor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/grupointegrado/projetoTDE/model/Professor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,9 +35,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2pPJIRGYzY7OeyVteh2JMkapmy5" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -47,13 +45,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Notification.DisplayName-DoNotAsk-Database detector": "Database detector",
+    "Notification.DoNotAsk-Database detector": "true",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "Spring Boot.ProjetoTdeApplication.executor": "Run",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/User/Desktop/TrabalhoFinalJava/trabalhoTopicosEducacional-main",
     "node.js.detected.package.eslint": "true",
@@ -61,6 +63,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -76,8 +81,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
       </set>
     </attachedChunks>
   </component>
@@ -90,6 +95,8 @@
       <option name="presentableId" value="Default" />
       <updated>1732661696713</updated>
       <workItem from="1732661697794" duration="301000" />
+      <workItem from="1732716369915" duration="787000" />
+      <workItem from="1732717205793" duration="1587000" />
     </task>
     <servers />
   </component>

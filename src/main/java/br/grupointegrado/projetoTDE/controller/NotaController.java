@@ -23,7 +23,8 @@ public class NotaController {
         return notaRepository.findAll();
     }
 
-    // Função para buscar uma Nota pelo id
+
+
     @GetMapping("/{id}")
     public ResponseEntity<Nota> findById(@PathVariable Integer id) {
         Optional<Nota> nota = notaRepository.findById(id);

@@ -14,6 +14,9 @@ public class Disciplina {
     @JoinColumn(name = "curso_id", referencedColumnName = "id")
     private Curso curso;
 
+
+    //@ManyToOn@JoinColumn(name = "professor_id", referencedColumnName = "id")private Professor professor;
+
     @ManyToOne
     @JoinColumn(name = "professor_id", referencedColumnName = "id")
     private Professor professor;

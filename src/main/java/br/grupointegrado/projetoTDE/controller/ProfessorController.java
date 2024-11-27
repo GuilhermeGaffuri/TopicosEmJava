@@ -23,7 +23,8 @@ public class ProfessorController {
         return professorRepository.findAll();
     }
 
-    //Função para buscar um professor pelo id;
+
+
     @GetMapping("/{id}")
     public ResponseEntity<Professor> findById(@PathVariable Integer id) {
         Optional<Professor> professor = professorRepository.findById(id);

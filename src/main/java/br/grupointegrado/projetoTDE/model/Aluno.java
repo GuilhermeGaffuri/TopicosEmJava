@@ -29,6 +29,15 @@ public class Aluno {
     @Column
     private LocalDate dataNascimento;
 
+
+
+
+
+
+
+
+
+
     public Integer getId() {
         return id;
     }

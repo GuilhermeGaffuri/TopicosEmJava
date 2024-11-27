@@ -25,7 +25,9 @@ public class MatriculaController {
         return matriculaRepository.findAll();
     }
 
-    // Função para buscar uma Matricula pelo id
+
+
+
     @GetMapping("/{id}")
     public ResponseEntity<Matricula> findById(@PathVariable Integer id) {
         Optional<Matricula> matricula = matriculaRepository.findById(id);

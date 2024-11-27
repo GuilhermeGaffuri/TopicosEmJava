@@ -28,7 +28,8 @@ public class DisciplinaController {
         return disciplinaRepository.findAll();
     }
 
-    // Função para buscar uma disciplina pelo id
+
+
     @GetMapping("/{id}")
     public ResponseEntity<Disciplina> findById(@PathVariable Integer id) {
         Optional<Disciplina> disciplina = disciplinaRepository.findById(id);

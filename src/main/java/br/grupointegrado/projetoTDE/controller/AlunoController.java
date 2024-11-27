@@ -24,13 +24,13 @@ public class AlunoController {
     @Autowired
     private NotaRepository notaRepository;
 
-    // Método para buscar todos os alunos
+
     @GetMapping
     public List<Aluno> findAll() {
         return alunoRepository.findAll();
     }
 
-    // Método para buscar um aluno pelo ID
+
     @GetMapping("/{id}")
     public ResponseEntity<Aluno> findById(@PathVariable Integer id) {
         Optional<Aluno> aluno = alunoRepository.findById(id);
@@ -41,13 +41,13 @@ public class AlunoController {
         }
     }
 
-    // Método para salvar um novo aluno
+
     @PostMapping
     public Aluno save(@RequestBody Aluno aluno) {
         return alunoRepository.save(aluno);
     }
 
-    // Método para atualizar um aluno existente
+
     @PutMapping("/{id}")
     public ResponseEntity<Aluno> update(@PathVariable Integer id, @RequestBody Aluno aluno) {
         Optional<Aluno> alunoExistente = alunoRepository.findById(id);
@@ -64,7 +64,7 @@ public class AlunoController {
         }
     }
 
-    // Método para deletar um aluno pelo ID
+
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> delete(@PathVariable Integer id) {
         Optional<Aluno> aluno = alunoRepository.findById(id);
@@ -76,8 +76,11 @@ public class AlunoController {
         }
     }
 
-    // Método para buscar notas de um aluno pelo ID
     @GetMapping("/{id}/relatorio")
+
+
+
+
     public ResponseEntity<Map<String, Object>> findNotasById(@PathVariable Integer id) {
         Optional<Aluno> aluno = alunoRepository.findById(id);
 
@@ -100,11 +103,11 @@ public class AlunoController {
                 for (Nota nota : notas) {
                     // Cria um mapa com as informações da nota
                     Map<String, Object> notaData = new HashMap<>();
-                    notaData.put("disciplina", nota.getDisciplina().getNome());  // Nome da disciplina
+                    notaData.put("disciplina", nota.getDisciplina().getNome());  // Nome da ,minha dis
                     notaData.put("nota", nota.getNota());  // Nota obtida
                     notaData.put("data_lancamento", nota.getData_lancamento());  // Data de lançamento
 
-                    // Adiciona o mapa da nota à lista de notas
+
                     notasList.add(notaData);
                 }
             }

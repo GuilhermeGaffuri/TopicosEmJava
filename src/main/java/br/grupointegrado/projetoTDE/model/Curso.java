@@ -10,11 +10,17 @@ public class Curso {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
+
+
+
     @Column
     private String nome;
 
     @Column
     private String codigo;
+
+
+
 
     @Column
     private Integer carga_horaria;

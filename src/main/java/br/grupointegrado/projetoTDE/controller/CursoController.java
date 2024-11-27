@@ -17,13 +17,15 @@ public class CursoController {
     @Autowired
     private CursoRepository cursoRepository;
 
-    //Listar cursos;
+
+
+
     @GetMapping
     public ResponseEntity<List<Curso>> findAll() {
         return ResponseEntity.ok(this.cursoRepository.findAll());
     }
 
-    //Função para buscar um curso pelo id;
+
     @GetMapping("/{id}")
     public ResponseEntity<Curso> findById(@PathVariable Integer id) {
         Optional<Curso> curso = cursoRepository.findById(id);
