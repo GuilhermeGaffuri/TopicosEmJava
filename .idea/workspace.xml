@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e4caed6-cdba-4e36-b84a-1513e1381612" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/grupointegrado/projetoTDE/controller/AlunoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/grupointegrado/projetoTDE/controller/AlunoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/grupointegrado/projetoTDE/controller/CursoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/grupointegrado/projetoTDE/controller/CursoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/grupointegrado/projetoTDE/controller/DisciplinaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/grupointegrado/projetoTDE/controller/DisciplinaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/grupointegrado/projetoTDE/controller/MatriculaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/grupointegrado/projetoTDE/controller/MatriculaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/grupointegrado/projetoTDE/controller/NotaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/grupointegrado/projetoTDE/controller/NotaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/grupointegrado/projetoTDE/controller/ProfessorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/grupointegrado/projetoTDE/controller/ProfessorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/grupointegrado/projetoTDE/controller/TurmaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/grupointegrado/projetoTDE/controller/TurmaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/grupointegrado/projetoTDE/model/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/grupointegrado/projetoTDE/model/Aluno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/grupointegrado/projetoTDE/model/Curso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/grupointegrado/projetoTDE/model/Curso.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/grupointegrado/projetoTDE/model/Disciplina.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/grupointegrado/projetoTDE/model/Disciplina.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/grupointegrado/projetoTDE/model/Matricula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/grupointegrado/projetoTDE/model/Matricula.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/grupointegrado/projetoTDE/model/Professor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/grupointegrado/projetoTDE/model/Professor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-    </list>
+    <list default="true" id="8e4caed6-cdba-4e36-b84a-1513e1381612" name="Changes" comment="&quot;correção de bug&quot;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +13,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/GuilhermeGaffuri/TopicosEmJava.git",
+    "accountId": "f7dce0cc-dfc8-4b76-a8b3-e4baede3ba59"
+  }
+}]]></component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -96,11 +87,40 @@
       <updated>1732661696713</updated>
       <workItem from="1732661697794" duration="301000" />
       <workItem from="1732716369915" duration="787000" />
-      <workItem from="1732717205793" duration="1587000" />
+      <workItem from="1732717205793" duration="1891000" />
     </task>
+    <task id="LOCAL-00001" summary="&quot;correção de bug&quot;">
+      <option name="closed" value="true" />
+      <created>1732718981710</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732718981710</updated>
+    </task>
+    <task id="LOCAL-00002" summary="&quot;correção de bug&quot;">
+      <option name="closed" value="true" />
+      <created>1732719089888</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1732719089888</updated>
+    </task>
+    <task id="LOCAL-00003" summary="&quot;correção de bug&quot;">
+      <option name="closed" value="true" />
+      <created>1732719241759</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1732719241759</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;correção de bug&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;correção de bug&quot;" />
   </component>
 </project>
