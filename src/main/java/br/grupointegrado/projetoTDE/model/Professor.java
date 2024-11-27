@@ -65,48 +65,7 @@ public class Professor {
 
 
 
-/* br.grupointegrado.projetoTDE.model;
-
-import jakarta.persistence.*;
-
-@Entity
-@Table(name = "professores")
-public class Professor {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id;
-
-    @Column
-    private String nome;
-
-    @Column
-    private String email;
-
-    @Column
-    private String telefone;
-
-    @Column
-    private String especialidade;
-
-    public Integer getId() {
-        return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
-
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    public String getEmail() {
-        return email;
+/* email;
     }
 
     public void setEmail(String email) {
