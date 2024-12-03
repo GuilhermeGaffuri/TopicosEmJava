@@ -7,7 +7,7 @@ Este repositório contém os tópicos abordados na disciplina de **Tópicos em J
 O repositório está dividido em diferentes tópicos, com o código de exemplo e explicações que cobrem as áreas principais da linguagem Java. Alguns dos tópicos abordados incluem:
 
 - Introdução à linguagem Java
-- Estruturas de controle de fluxo
+- Estruturas de controle de fluxo.
 - Classes e objetos
 - Herança e polimorfismo
 - Coleções e interfaces
