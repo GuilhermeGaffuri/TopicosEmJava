@@ -112,10 +112,7 @@ public class AlunoController {
                 }
             }
 
-            // Adiciona a lista de notas ao mapa de resposta
             response.put("notas", notasList);
-
-            // Retorna a resposta com as informações do aluno e suas notas
             return ResponseEntity.ok(response);
         } else {
             return ResponseEntity.status(HttpStatus.NOT_FOUND).body(null);
