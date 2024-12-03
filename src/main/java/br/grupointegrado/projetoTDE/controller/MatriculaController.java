@@ -38,7 +38,7 @@ public class MatriculaController {
         }
     }
 
-    // Função para cadastrar uma nova matricula
+
     @PostMapping
     public Matricula save(@RequestBody Matricula matricula) {
         return matriculaRepository.save(matricula);
